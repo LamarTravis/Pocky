@@ -1,0 +1,283 @@
+/* =======================================
+    style.css
+    use this file for your custom styles
+========================================== */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+/* use a box model that makes sense */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+/* set the default color, font-size, and line height */
+html {
+  color: red;
+  font-size: 1em;
+  line-height: 1.4;
+
+}
+
+body{
+  background-color: #AF0E13;
+    font-family: 'open sans',arial,sans-serif;
+}
+.home{
+  padding-left: 50px;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 1200px; /* change this width to make a wider page!*/
+  padding: 0 1em; /* 1em of padding on the left and right side */
+}
+
+/* make images and embedded media fluid */
+img,
+object {
+  max-width: 100%;
+}
+
+/* type hierarchy- change for your project */
+h1 {
+  font-size: 3em; /* 48px */
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+footer{
+max-width: 1500px;
+display: inline-block;
+padding: 10px;
+}
+footer p{
+  padding-left: 200px;
+  font-size: 20px;
+}
+h2 {
+  font-size: 2.25em /* 36px */
+}
+
+h3 {
+  font-size: 1.75em /* 28px */
+}
+
+h4 {
+  font-size: 1.125em /*18px */
+}
+
+/* navigation list styles */
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* =======================================
+    author styles
+    place your custom styles below here
+========================================== */
+tr{
+  border: solid;
+  color: black;
+  border-width: 2px;
+}
+.first{
+  font-size: 36px;
+}
+.first a{
+  color:#F7C46C;
+}
+.first a:visited{
+  color: #F7C46C;
+}
+.serving{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+}
+.calories{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+}
+.protein{
+  border-bottom: solid;
+  border-bottom-width: 10px;
+}
+main{
+  margin: 0 auto;
+  max-width: 750px;
+  color: black;
+  border: solid;
+  border-color: #F7C46C;
+  background-color: white;
+  border-width: 2px;
+}
+main p{
+  margin: 0 auto;
+  font-size: 40px;
+}
+.distribution{
+  padding-top: 50px;
+}
+.distribution p{
+  margin: 0 auto;
+  max-width: 450px;
+  font-size: 24px;
+}
+.distribution h1{
+  font-size: 32px;
+  max-width: 550px;
+}
+.distribution h2{
+  margin: 0 auto;
+  font-size: 28px;
+  max-width: 350px;
+}
+.distribution h3{
+  margin: 0 auto;
+  font-size: 24px;
+  max-width: 200px;
+}
+.para{
+  margin: 0 auto;
+  max-width: 200px;
+}
+.para1{
+  margin: 0 auto;
+  max-width: 325px;
+}
+.border-left {
+  position: fixed;
+  top: 50px;
+  left: -150px;
+
+}
+
+.border-right {
+  position: fixed;
+  top: 50px;
+  right: -150px;
+
+}
+
+#content {
+margin: 0 auto;
+padding-left: 80px;
+}
+
+.nav{
+    border: solid;
+    border-color: #F7C46C;
+    background-color: #412516;
+    border-spacing: 50px;
+  padding-left: 85px;
+  font-size: 32px;
+}
+
+a{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+footer{
+  color: white;
+  font-size: 32px;
+}
+
+.paragraph {
+  color: white;
+  font-size: 50px;
+  max-width: 1000px;
+  padding-left: 305px;
+}
+.covered{
+  padding-left: 135px;
+}
+.biscuit{
+  padding-left: 60px;
+}
+
+.footer{
+  padding-top: 200px;
+  padding-left: 365px;
+}
+/* =======================================
+    Layout
+    keep this at the bottom
+========================================== */
+
+@media (min-width: 620px) {
+  .column {
+    float: left;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .column.full {
+    width: 100%;
+  }
+
+  .column.two-thirds {
+    width: 66.7%;
+  }
+
+  .column.half {
+    width: 50%;
+  }
+
+  .column.third {
+    width: 33.3%;
+  }
+
+  .column.fourth {
+    width: 25%;
+  }
+
+  .column.flow-opposite {
+    float: right;
+  }
+}
+
+
+/* row used as a clearfix to clear floats */
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.row {
+  *zoom: 1;
+}
