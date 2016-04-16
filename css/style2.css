@@ -161,13 +161,13 @@ main p{
 .border-left {
   position: fixed;
   top: 50px;
-  left: -150px;
+  left: -1px;
 }
 
 .border-right {
   position: fixed;
   top: 50px;
-  right: -150px;
+  right: -1px;
 }
 
 #content {
