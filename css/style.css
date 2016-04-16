@@ -100,8 +100,9 @@ h4 {
   border: solid;
   border-color: #F7C46C;
   background-color: #412516;
-  border-spacing: 50px;
   font-family: 'open sans',arial,sans-serif;
+  padding-left: 85px;
+  font-size: 32px;
 }
 #content{
   padding-top: 100px;
@@ -123,11 +124,6 @@ margin: 0 auto;
 padding-left: 80px;
 }
 
-.nav{
-  padding-left: 85px;
-  font-size: 32px;
-
-}
 body{
   font-family: 'open sans',arial,sans-serif;
 }
