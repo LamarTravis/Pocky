@@ -134,7 +134,7 @@ img{
 
 #content {
 margin: 0 auto;
-padding-left: 80px;
+max-width: 800px;
 }
 
 body{
@@ -156,19 +156,22 @@ footer{
 .paragraph {
   color: white;
   font-size: 50px;
-  max-width: 1000px;
-  padding-left: 305px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 .covered{
-  padding-left: 135px;
+margin: 0 auto;
+max-width: 300px;
 }
 .biscuit{
-  padding-left: 60px;
+margin: 0 auto;
+max-width: 500px;
 }
 
 .footer{
   padding-top: 200px;
-  padding-left: 365px;
+  margin: 0 auto;
+  max-width: 400px;
 }
 /* =======================================
     Layout
