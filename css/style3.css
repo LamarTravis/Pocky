@@ -34,7 +34,9 @@
   box-sizing: border-box;
 
 }
-
+@media screen and (max-width: 1000px) {
+    .border-left, .border-right { display: none; }
+}
 /* set the default color, font-size, and line height */
 html {
   color: red;

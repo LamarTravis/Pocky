@@ -96,6 +96,19 @@ h4 {
     author styles
     place your custom styles below here
 ========================================== */
+@media screen and (max-device-width: 480px) {
+  body {
+    float: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+    .border-left, .border-right { display: none; }
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
 .nav{
   border: solid;
   border-color: #F7C46C;

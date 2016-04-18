@@ -92,6 +92,9 @@ h4 {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 1000px) {
+    .border-left, .border-right { display: none; }
+}
 
 /* =======================================
     author styles
@@ -114,7 +117,7 @@ main p{
 }
 .wiki{
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 700px;
 }
 .wiki a{
   color:#F7C46C;
@@ -133,12 +136,13 @@ main p{
 }
 .distribution p{
   margin: 0 auto;
-  max-width: 450px;
+  max-width: 250px;
   font-size: 24px;
 }
 .distribution h1{
+  margin: 0 auto;
   font-size: 32px;
-  max-width: 550px;
+  max-width: 525px;
 }
 .distribution h2{
   margin: 0 auto;
@@ -148,15 +152,19 @@ main p{
 .distribution h3{
   margin: 0 auto;
   font-size: 24px;
-  max-width: 200px;
+  max-width: 165px;
 }
 .para{
   margin: 0 auto;
   max-width: 200px;
 }
+.para p{
+  margin: 0 auto;
+  max-width: 200px;
+}
 .para1{
   margin: 0 auto;
-  max-width: 325px;
+  max-width: 550px;
 }
 .border-left {
   position: fixed;
